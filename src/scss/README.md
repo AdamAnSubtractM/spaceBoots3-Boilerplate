@@ -4,7 +4,7 @@
 
 The `scss/` directory contains a few important things.
 
-- **Bootsrap4** contains the entirety of the bootstrap4 beta framework. It contains all of the scss partials and mixins that make up bootstrap4. This boilerplate has all bootsrap 4 components imported into the stylesheet but you can make it as robust as you need it. Exclude items you don't need or won't use. These items all get imported in the '_bootstrap4' partial and the bootstap4 partial gets imported into the manifest which is then imported into the main stylesheet.
+- **Bootsrap3** contains the entirety of the bootstra3 framework. It contains all of the scss partials and mixins that make up bootstrap4. This boilerplate has all bootsrap 4 components imported into the stylesheet but you can make it as robust as you need it. Exclude items you don't need or won't use. These items all get imported in the 'bootsrap3/_bootstrap3' partial and the bootstap3 partial gets imported into the manifest which is then imported into the main stylesheet.
 - **vars** is the partial where you will define global variables to reuse throughout your code. See Global Variables below for more information.
 - **manifest** is the partial that imports the bootstrap4 framework and your custom variables from the var partial.
 

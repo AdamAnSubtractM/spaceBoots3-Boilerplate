@@ -1,7 +1,7 @@
 {
-  "name": "spaceBoots4",
+  "name": "spaceBoots3",
   "version": "1.0.0",
-  "description": "spaceBoots4. The only mobile-first, robust grid system you'll ever need.",
+  "description": "spaceBoots3. The only mobile-first, robust grid system you'll ever need.",
   "main": "gulpfile.js",
   "keywords": [
     "mySpaceBase"

@@ -3,25 +3,16 @@
 html {
     body {
         .spaceBootsWrap {
-            .delete-me-when-starting-your-project {
-                .row {
-                    div {
-                        min-height: 100px;
-                        margin-bottom: 2em;
-                        color: #ecf0f1;
-                        background-color: #2980b9;
-                        text-align: center;
-                        text-transform: uppercase;
-                        padding: 3rem 4%;
-                    }
-                }
-            }
         } /** end .spaceBootsWrap */
     } /** end body */
 } /** end html */
 
 
-@include media-breakpoint-up(sm) {  } //end [540px sm]
-@include media-breakpoint-up(md) {  } //end [720px md]
-@include media-breakpoint-up(lg) {  } //end [960px lg]
-@include media-breakpoint-up(xl) {  } //end [1140px xl]
+/* Small devices (tablets, @screen-sm-min and up) */
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, @screen-md-min and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, @screen-lg-min and up) */
+@media (min-width: 1200px) {  }
