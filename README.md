@@ -13,19 +13,17 @@ spaceBoots3
 4. Work out of the 'src' directory directly
 5. Open scss/_vars.scss to make changes to your global variables
 6. Start building out your HTML. I've included index.html as a starting point
-7. scss/bootstrap4/ is the core of spaceBoots3
+7. scss/bootstrap3/ is the core of spaceBoots3
 8. Do a find and replace on the entire project directory for '.spaceBootsWrap' and replace the name with your project specfic name (e.g. '.gameCrusher3' )
 
 ## Super Important:
 
-* Bootstrap4 is in beta and is built on flex whereas Bootstrap3 is buit on floats. For that reason you likely are going to want to use my build call spaceBoots3 which is built off of Bootstrap 3 IF you're going to be using this as a project for DSG, FnS, or GGXY. 
+* Bootstrap4 is in beta and is built on flex whereas Bootstrap 3 is buit on floats. For that reason you likely are going to want to use my build call spaceBoots3 which is built off of Bootstrap 3 IF you're going to be using this as a project for DSG, FnS, or GGXY. 
 * Bootstrap3 and the compiler do a great job at keeping this pretty lightweight despite all of the power behind it. However, if you're not using anything but the bootstrap grid system, please only import the grid system.
 * I made it super easy to use just the grid. When you clone this switch run this cmd:
 ```sh
 git checkout grid-only
 ```
-
-Many CSS frameworks are meant to be included and left alone. But spaceBoots3 is a boilerplate layer that can be built upon and tailored for your needs. It combines best practices for today’s responsive web with the core components we use on every project. Not to mention Bootstrap4. Consider it the launch pad for your adventures into cyberspace.
 
 spaceBoots3:
 [![Build Status](https://img.shields.io/travis/space150/spaceBase.svg?style=flat-square)](https://travis-ci.org/space150/spaceBase)
@@ -72,14 +70,6 @@ js/
   bootstrap.js
   scripts.js
 ```
-
-You can remove:
-- `bower.json`
-- `Gemfile`
-- `Gemfile.lock`
-- `Rakefile`
-- `test/`
-(If you download the original)
 
 ## Credits
 
